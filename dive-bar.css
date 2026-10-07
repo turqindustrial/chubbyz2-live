@@ -61,3 +61,10 @@ nav{flex-wrap:wrap;gap:22px}
 @media(max-width:650px){.food-section{padding:20px 18px;border-width:4px;margin-bottom:28px}.food-items,.beer-menu{grid-template-columns:1fr}.food-item dt{font-size:22px}.food-item dt>span:first-child{flex-basis:170px}.menu-categories{gap:8px;margin-bottom:28px}.menu-categories a{padding:9px 11px;font-size:13px}.food-section-heading h2{font-size:28px}.beer-menu{gap:18px}}
 
 .privacy-link{font-size:13px;text-decoration:underline}.privacy-page{max-width:950px}.privacy-page h2{font-size:29px;letter-spacing:-.5px;margin:32px 0 12px}.privacy-page p{line-height:1.8}.privacy-page p a{color:var(--yellow);text-decoration:underline}.logo{white-space:nowrap}
+
+/* Clear, readable menu and promotion disclosures. */
+.notice-wrap { padding: 0 clamp(1rem, 5vw, 5rem) 2rem; }
+.site-notices { margin: 2rem 0; padding: 1.5rem; border: 1px solid currentColor; font-size: .95rem; line-height: 1.6; }
+.site-notices h2 { font-size: 1.4rem; margin-bottom: .75rem; }
+.site-notices p + p { margin-top: .75rem; }
+.promotion-notice { margin: 1rem 0; font-size: .95rem; line-height: 1.6; }
